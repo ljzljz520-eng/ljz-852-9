@@ -1,0 +1,1061 @@
+{
+  "conferences": [
+    {
+      "name": "云原生技术大会",
+      "acronym": "CNC 2026",
+      "year": 2026,
+      "location": "上海 · 世博中心",
+      "start_date": "2026-03-20",
+      "end_date": "2026-03-21",
+      "description": "聚焦 Kubernetes、服务网格、平台工程与云原生 AI 基础设施的年度技术大会，公开全部演讲资料。",
+      "source_url": "https://cnc2026.example.org",
+      "sessions": [
+        {
+          "day": "2026-03-20",
+          "track": "云原生",
+          "title": "主题演讲：Kubernetes 的下一个十年",
+          "room": "主厅A",
+          "start_time": "09:30",
+          "end_time": "10:15",
+          "abstract": "回顾 Kubernetes 十周年，展望多集群编排、Wasm 集成与 AI 负载调度的演进方向。",
+          "speakers": [
+            {
+              "name": "张伟",
+              "affiliation": "云启科技",
+              "bio": "云启科技首席架构师，CNCF 大使"
+            }
+          ],
+          "files": [
+            {
+              "title": "主题演讲：Kubernetes 的下一个十年",
+              "file_type": "ppt",
+              "filename": "keynote-k8s-next-decade.pptx",
+              "format": "pptx",
+              "size_kb": 4300,
+              "pages": 48,
+              "language": "中文",
+              "uploaded_at": "2026-03-22",
+              "source_url": "https://files.example.org/keynote-k8s-next-decade.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "keynote-k8s-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 210,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2026-03-18",
+              "source_url": "https://files.example.org/keynote-k8s-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "主题演讲回放",
+              "file_type": "video",
+              "filename": "keynote-k8s-replay.mp4",
+              "format": "mp4",
+              "size_kb": 512000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2026-03-25",
+              "source_url": "https://files.example.org/keynote-k8s-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2026-03-20",
+          "track": "云原生",
+          "title": "服务网格在生产环境的落地实践",
+          "room": "主厅A",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "abstract": "基于 Istio 的灰度发布、流量治理与零信任安全在大规模集群中的实践经验。",
+          "speakers": [
+            {
+              "name": "王强",
+              "affiliation": "蓝鲸网络",
+              "bio": "蓝鲸网络 SRE 负责人"
+            }
+          ],
+          "files": [
+            {
+              "title": "服务网格落地实践 演讲稿",
+              "file_type": "ppt",
+              "filename": "istio-in-production.pptx",
+              "format": "pptx",
+              "size_kb": 3600,
+              "pages": 39,
+              "language": "中文",
+              "uploaded_at": "2026-03-22",
+              "source_url": "https://files.example.org/istio-in-production.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "istio-in-production-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 180,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2026-03-18",
+              "source_url": "https://files.example.org/istio-in-production-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "Istio 配置示例",
+              "file_type": "attachment",
+              "filename": "istio-config-samples.zip",
+              "format": "zip",
+              "size_kb": 96,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2026-03-22",
+              "source_url": "https://files.example.org/istio-config-samples.zip",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2026-03-20",
+          "track": "DevOps",
+          "title": "GitOps 流水线设计与多集群发布",
+          "room": "分厅B",
+          "start_time": "13:00",
+          "end_time": "13:45",
+          "abstract": "以 ArgoCD 为核心的 GitOps 流水线设计，覆盖 30+ 集群的应用发布与回滚策略。",
+          "speakers": [
+            {
+              "name": "刘洋",
+              "affiliation": "华云信息",
+              "bio": "华云信息资深工程师，Argo 项目贡献者"
+            }
+          ],
+          "files": [
+            {
+              "title": "GitOps 流水线设计 演讲稿",
+              "file_type": "ppt",
+              "filename": "gitops-multicluster.pptx",
+              "format": "pptx",
+              "size_kb": 2900,
+              "pages": 33,
+              "language": "中文",
+              "uploaded_at": "2026-03-23",
+              "source_url": "https://files.example.org/gitops-multicluster.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演示代码仓库导出",
+              "file_type": "attachment",
+              "filename": "gitops-demo-repo.zip",
+              "format": "zip",
+              "size_kb": 340,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2026-03-23",
+              "source_url": "https://files.example.org/gitops-demo-repo.zip",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "gitops-multicluster-replay.mp4",
+              "format": "mp4",
+              "size_kb": 388000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2026-03-26",
+              "source_url": "https://files.example.org/gitops-multicluster-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2026-03-20",
+          "track": "人工智能",
+          "title": "大模型推理服务的弹性伸缩",
+          "room": "主厅A",
+          "start_time": "14:00",
+          "end_time": "14:45",
+          "abstract": "面向 LLM 推理流量的弹性伸缩方案：基于请求队列与 GPU 利用率的混合扩缩容策略。",
+          "speakers": [
+            {
+              "name": "周婷",
+              "affiliation": "云启科技",
+              "bio": "云启科技机器学习工程师"
+            },
+            {
+              "name": "李娜",
+              "affiliation": "清华大学",
+              "bio": "清华大学计算机系副教授"
+            }
+          ],
+          "files": [
+            {
+              "title": "大模型推理服务的弹性伸缩 演讲稿",
+              "file_type": "ppt",
+              "filename": "llm-serving-autoscaling.pptx",
+              "format": "pptx",
+              "size_kb": 5100,
+              "pages": 44,
+              "language": "中文",
+              "uploaded_at": "2026-03-23",
+              "source_url": "https://files.example.org/llm-serving-autoscaling.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "llm-serving-autoscaling-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 240,
+              "pages": 3,
+              "language": "中文",
+              "uploaded_at": "2026-03-18",
+              "source_url": "https://files.example.org/llm-serving-autoscaling-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "压测数据集",
+              "file_type": "attachment",
+              "filename": "llm-serving-benchmark.csv",
+              "format": "csv",
+              "size_kb": 1200,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2026-03-23",
+              "source_url": "https://files.example.org/llm-serving-benchmark.csv",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2026-03-21",
+          "track": "云原生",
+          "title": "eBPF 可观测性实战",
+          "room": "分厅B",
+          "start_time": "09:30",
+          "end_time": "10:15",
+          "abstract": "使用 eBPF 构建零侵入的应用可观测性：网络拓扑、延迟分析与异常检测。",
+          "speakers": [
+            {
+              "name": "刘洋",
+              "affiliation": "华云信息",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "eBPF 可观测性实战 演讲稿",
+              "file_type": "ppt",
+              "filename": "ebpf-observability.pptx",
+              "format": "pptx",
+              "size_kb": 3800,
+              "pages": 41,
+              "language": "中文",
+              "uploaded_at": "2026-03-24",
+              "source_url": "https://files.example.org/ebpf-observability.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "ebpf-observability-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 190,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2026-03-19",
+              "source_url": "https://files.example.org/ebpf-observability-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2026-03-21",
+          "track": "DevOps",
+          "title": "平台工程：从理念到落地",
+          "room": "主厅A",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "abstract": "内部开发者平台（IDP）的建设路径：黄金通道、自助服务与平台度量。",
+          "speakers": [
+            {
+              "name": "郑楠",
+              "affiliation": "华云信息",
+              "bio": "华云信息技术 VP"
+            }
+          ],
+          "files": [
+            {
+              "title": "平台工程：从理念到落地 演讲稿",
+              "file_type": "ppt",
+              "filename": "platform-engineering.pptx",
+              "format": "pptx",
+              "size_kb": 3100,
+              "pages": 36,
+              "language": "中文",
+              "uploaded_at": "2026-03-24",
+              "source_url": "https://files.example.org/platform-engineering.pptx",
+              "status": "blocked",
+              "block_reason": "含未授权第三方图片，版权投诉处理中"
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "platform-engineering-replay.mp4",
+              "format": "mp4",
+              "size_kb": 402000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2026-03-27",
+              "source_url": "https://files.example.org/platform-engineering-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "全球AI系统架构峰会",
+      "acronym": "AISys 2025",
+      "year": 2025,
+      "location": "北京 · 国家会议中心",
+      "start_date": "2025-11-14",
+      "end_date": "2025-11-15",
+      "description": "关注大模型训练/推理系统、向量检索与 AI 基础设施架构的国际峰会，议程与论文摘要公开。",
+      "source_url": "https://aisys2025.example.org",
+      "sessions": [
+        {
+          "day": "2025-11-14",
+          "track": "人工智能",
+          "title": "万亿参数模型的分布式训练架构",
+          "room": "主厅",
+          "start_time": "09:30",
+          "end_time": "10:30",
+          "abstract": "3D 并行、流水线气泡优化与万卡集群的容错训练实践。",
+          "speakers": [
+            {
+              "name": "李娜",
+              "affiliation": "清华大学",
+              "bio": ""
+            },
+            {
+              "name": "周婷",
+              "affiliation": "云启科技",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "万亿参数模型的分布式训练架构 演讲稿",
+              "file_type": "ppt",
+              "filename": "trillion-param-training.pptx",
+              "format": "pptx",
+              "size_kb": 6800,
+              "pages": 56,
+              "language": "中文",
+              "uploaded_at": "2025-11-17",
+              "source_url": "https://files.example.org/trillion-param-training.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "论文全文",
+              "file_type": "paper",
+              "filename": "trillion-param-training-paper.pdf",
+              "format": "pdf",
+              "size_kb": 2400,
+              "pages": 18,
+              "language": "英文",
+              "uploaded_at": "2025-11-10",
+              "source_url": "https://files.example.org/trillion-param-training-paper.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "trillion-param-training-replay.mp4",
+              "format": "mp4",
+              "size_kb": 614000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-11-20",
+              "source_url": "https://files.example.org/trillion-param-training-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-11-14",
+          "track": "人工智能",
+          "title": "向量数据库与 RAG 系统工程",
+          "room": "分厅1",
+          "start_time": "11:00",
+          "end_time": "11:45",
+          "abstract": "RAG 系统的检索质量评估、向量索引选型与混合检索工程化。",
+          "speakers": [
+            {
+              "name": "陈静",
+              "affiliation": "星图数据",
+              "bio": "星图数据数据平台总监"
+            }
+          ],
+          "files": [
+            {
+              "title": "向量数据库与 RAG 系统工程 演讲稿",
+              "file_type": "ppt",
+              "filename": "rag-system-engineering.pptx",
+              "format": "pptx",
+              "size_kb": 4200,
+              "pages": 38,
+              "language": "中文",
+              "uploaded_at": "2025-11-17",
+              "source_url": "https://files.example.org/rag-system-engineering.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "rag-system-engineering-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 220,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2025-11-08",
+              "source_url": "https://files.example.org/rag-system-engineering-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "RAG 演示代码",
+              "file_type": "attachment",
+              "filename": "rag-demo-code.zip",
+              "format": "zip",
+              "size_kb": 450,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-11-17",
+              "source_url": "https://files.example.org/rag-demo-code.zip",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-11-14",
+          "track": "数据工程",
+          "title": "实时特征平台建设实践",
+          "room": "分厅2",
+          "start_time": "14:00",
+          "end_time": "14:45",
+          "abstract": "支撑在线推理的实时特征平台：特征一致性、点查性能与回灌机制。",
+          "speakers": [
+            {
+              "name": "吴斌",
+              "affiliation": "星图数据",
+              "bio": "星图数据高级工程师"
+            }
+          ],
+          "files": [
+            {
+              "title": "实时特征平台建设实践 演讲稿",
+              "file_type": "ppt",
+              "filename": "realtime-feature-platform.pptx",
+              "format": "pptx",
+              "size_kb": 3300,
+              "pages": 34,
+              "language": "中文",
+              "uploaded_at": "2025-11-18",
+              "source_url": "https://files.example.org/realtime-feature-platform.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "realtime-feature-platform-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 170,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2025-11-08",
+              "source_url": "https://files.example.org/realtime-feature-platform-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-11-15",
+          "track": "人工智能",
+          "title": "LLM 推理优化：从量化到投机解码",
+          "room": "主厅",
+          "start_time": "09:30",
+          "end_time": "10:15",
+          "abstract": "INT4 量化、KV Cache 压缩与投机解码在生产推理中的收益对比。",
+          "speakers": [
+            {
+              "name": "周婷",
+              "affiliation": "云启科技",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "LLM 推理优化 演讲稿",
+              "file_type": "ppt",
+              "filename": "llm-inference-optimization.pptx",
+              "format": "pptx",
+              "size_kb": 4700,
+              "pages": 42,
+              "language": "中文",
+              "uploaded_at": "2025-11-18",
+              "source_url": "https://files.example.org/llm-inference-optimization.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "llm-inference-optimization-replay.mp4",
+              "format": "mp4",
+              "size_kb": 489000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-11-21",
+              "source_url": "https://files.example.org/llm-inference-optimization-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-11-15",
+          "track": "数据工程",
+          "title": "湖仓一体架构下的数据治理",
+          "room": "分厅1",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "abstract": "湖仓一体场景下的元数据管理、血缘追踪与数据质量治理体系。",
+          "speakers": [
+            {
+              "name": "陈静",
+              "affiliation": "星图数据",
+              "bio": ""
+            },
+            {
+              "name": "吴斌",
+              "affiliation": "星图数据",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "湖仓一体架构下的数据治理 演讲稿",
+              "file_type": "ppt",
+              "filename": "lakehouse-governance.pptx",
+              "format": "pptx",
+              "size_kb": 3600,
+              "pages": 37,
+              "language": "中文",
+              "uploaded_at": "2025-11-18",
+              "source_url": "https://files.example.org/lakehouse-governance.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "数据治理白皮书",
+              "file_type": "paper",
+              "filename": "lakehouse-governance-whitepaper.pdf",
+              "format": "pdf",
+              "size_kb": 1800,
+              "pages": 24,
+              "language": "中文",
+              "uploaded_at": "2025-11-15",
+              "source_url": "https://files.example.org/lakehouse-governance-whitepaper.pdf",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "数据工程与分析大会",
+      "acronym": "DEA 2025",
+      "year": 2025,
+      "location": "深圳 · 会展中心",
+      "start_date": "2025-09-05",
+      "end_date": "2025-09-06",
+      "description": "覆盖流批计算、数据质量、日志平台与 BI 分析的数据工程大会，公开 PPT 与回放。",
+      "source_url": "https://dea2025.example.org",
+      "sessions": [
+        {
+          "day": "2025-09-05",
+          "track": "数据工程",
+          "title": "Flink 流批一体的生产实践",
+          "room": "主厅",
+          "start_time": "09:30",
+          "end_time": "10:15",
+          "abstract": "Flink 流批一体在实时数仓中的落地：统一 SQL、状态管理与资源弹性。",
+          "speakers": [
+            {
+              "name": "吴斌",
+              "affiliation": "星图数据",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "Flink 流批一体的生产实践 演讲稿",
+              "file_type": "ppt",
+              "filename": "flink-stream-batch.pptx",
+              "format": "pptx",
+              "size_kb": 3900,
+              "pages": 40,
+              "language": "中文",
+              "uploaded_at": "2025-09-08",
+              "source_url": "https://files.example.org/flink-stream-batch.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "flink-stream-batch-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 200,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2025-09-01",
+              "source_url": "https://files.example.org/flink-stream-batch-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "flink-stream-batch-replay.mp4",
+              "format": "mp4",
+              "size_kb": 433000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-09-10",
+              "source_url": "https://files.example.org/flink-stream-batch-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-09-05",
+          "track": "数据工程",
+          "title": "数据质量监控体系建设",
+          "room": "分厅A",
+          "start_time": "11:00",
+          "end_time": "11:45",
+          "abstract": "从规则引擎到异常检测：覆盖数千张表的数据质量监控体系。",
+          "speakers": [
+            {
+              "name": "陈静",
+              "affiliation": "星图数据",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "数据质量监控体系建设 演讲稿",
+              "file_type": "ppt",
+              "filename": "data-quality-monitoring.pptx",
+              "format": "pptx",
+              "size_kb": 2800,
+              "pages": 31,
+              "language": "中文",
+              "uploaded_at": "2025-09-08",
+              "source_url": "https://files.example.org/data-quality-monitoring.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "质量规则模板",
+              "file_type": "attachment",
+              "filename": "dq-rule-templates.json",
+              "format": "json",
+              "size_kb": 64,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-09-08",
+              "source_url": "https://files.example.org/dq-rule-templates.json",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-09-06",
+          "track": "人工智能",
+          "title": "特征平台与模型上线闭环",
+          "room": "主厅",
+          "start_time": "09:30",
+          "end_time": "10:15",
+          "abstract": "打通特征平台与模型服务：从特征定义到灰度上线的完整闭环。",
+          "speakers": [
+            {
+              "name": "周婷",
+              "affiliation": "云启科技",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "特征平台与模型上线闭环 演讲稿",
+              "file_type": "ppt",
+              "filename": "feature-platform-mlops.pptx",
+              "format": "pptx",
+              "size_kb": 3200,
+              "pages": 35,
+              "language": "中文",
+              "uploaded_at": "2025-09-09",
+              "source_url": "https://files.example.org/feature-platform-mlops.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "feature-platform-mlops-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 190,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2025-09-02",
+              "source_url": "https://files.example.org/feature-platform-mlops-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-09-06",
+          "track": "数据工程",
+          "title": "PB 级日志平台的成本优化",
+          "room": "分厅A",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "abstract": "PB 级日志平台的存储分层、索引裁剪与查询下推优化，成本下降 60% 的实践。",
+          "speakers": [
+            {
+              "name": "王强",
+              "affiliation": "蓝鲸网络",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "PB 级日志平台的成本优化 演讲稿",
+              "file_type": "ppt",
+              "filename": "log-platform-cost-optimization.pptx",
+              "format": "pptx",
+              "size_kb": 3500,
+              "pages": 36,
+              "language": "中文",
+              "uploaded_at": "2025-09-09",
+              "source_url": "https://files.example.org/log-platform-cost-optimization.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "log-platform-cost-replay.mp4",
+              "format": "mp4",
+              "size_kb": 398000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-09-12",
+              "source_url": "https://files.example.org/log-platform-cost-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "开源安全峰会",
+      "acronym": "OSS 2025",
+      "year": 2025,
+      "location": "线上",
+      "start_date": "2025-07-11",
+      "end_date": "2025-07-11",
+      "description": "聚焦软件供应链安全、开源合规与漏洞响应的一日线上峰会。",
+      "source_url": "https://oss2025.example.org",
+      "sessions": [
+        {
+          "day": "2025-07-11",
+          "track": "安全",
+          "title": "供应链安全：SBOM 落地指南",
+          "room": "直播间1",
+          "start_time": "10:00",
+          "end_time": "10:45",
+          "abstract": "SBOM 的生成、交换与消费：在企业内落地软件物料清单的完整指南。",
+          "speakers": [
+            {
+              "name": "孙磊",
+              "affiliation": "安防实验室",
+              "bio": "安防实验室安全研究员"
+            }
+          ],
+          "files": [
+            {
+              "title": "SBOM 落地指南 演讲稿",
+              "file_type": "ppt",
+              "filename": "sbom-in-practice.pptx",
+              "format": "pptx",
+              "size_kb": 2600,
+              "pages": 30,
+              "language": "中文",
+              "uploaded_at": "2025-07-13",
+              "source_url": "https://files.example.org/sbom-in-practice.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "sbom-in-practice-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 160,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2025-07-08",
+              "source_url": "https://files.example.org/sbom-in-practice-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "SBOM 工具包",
+              "file_type": "attachment",
+              "filename": "sbom-toolkit.zip",
+              "format": "zip",
+              "size_kb": 1800,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-07-13",
+              "source_url": "https://files.example.org/sbom-toolkit.zip",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-07-11",
+          "track": "安全",
+          "title": "开源组件漏洞响应实战",
+          "room": "直播间1",
+          "start_time": "11:00",
+          "end_time": "11:45",
+          "abstract": "从漏洞情报到修复闭环：企业级开源组件漏洞响应流程与自动化。",
+          "speakers": [
+            {
+              "name": "孙磊",
+              "affiliation": "安防实验室",
+              "bio": ""
+            },
+            {
+              "name": "赵敏",
+              "affiliation": "开源社区",
+              "bio": "开源社区布道师"
+            }
+          ],
+          "files": [
+            {
+              "title": "开源组件漏洞响应实战 演讲稿",
+              "file_type": "ppt",
+              "filename": "oss-vuln-response.pptx",
+              "format": "pptx",
+              "size_kb": 2900,
+              "pages": 33,
+              "language": "中文",
+              "uploaded_at": "2025-07-13",
+              "source_url": "https://files.example.org/oss-vuln-response.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲回放",
+              "file_type": "video",
+              "filename": "oss-vuln-response-replay.mp4",
+              "format": "mp4",
+              "size_kb": 356000,
+              "pages": 0,
+              "language": "中文",
+              "uploaded_at": "2025-07-15",
+              "source_url": "https://files.example.org/oss-vuln-response-replay.mp4",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-07-11",
+          "track": "开源治理",
+          "title": "企业开源合规体系建设",
+          "room": "直播间2",
+          "start_time": "14:00",
+          "end_time": "14:45",
+          "abstract": "许可证合规、CLA 与开源办公室（OSPO）的建设经验。",
+          "speakers": [
+            {
+              "name": "赵敏",
+              "affiliation": "开源社区",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "企业开源合规体系建设 演讲稿",
+              "file_type": "ppt",
+              "filename": "oss-compliance.pptx",
+              "format": "pptx",
+              "size_kb": 2400,
+              "pages": 28,
+              "language": "中文",
+              "uploaded_at": "2025-07-13",
+              "source_url": "https://files.example.org/oss-compliance.pptx",
+              "status": "active",
+              "block_reason": ""
+            },
+            {
+              "title": "演讲摘要",
+              "file_type": "abstract",
+              "filename": "oss-compliance-abstract.pdf",
+              "format": "pdf",
+              "size_kb": 150,
+              "pages": 2,
+              "language": "中文",
+              "uploaded_at": "2025-07-08",
+              "source_url": "https://files.example.org/oss-compliance-abstract.pdf",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        },
+        {
+          "day": "2025-07-11",
+          "track": "安全",
+          "title": "容器镜像扫描的误报治理",
+          "room": "直播间2",
+          "start_time": "15:00",
+          "end_time": "15:45",
+          "abstract": "镜像扫描误报的根因分析与治理：可达性分析与 VEX 的应用。",
+          "speakers": [
+            {
+              "name": "王强",
+              "affiliation": "蓝鲸网络",
+              "bio": ""
+            }
+          ],
+          "files": [
+            {
+              "title": "容器镜像扫描的误报治理 演讲稿",
+              "file_type": "ppt",
+              "filename": "image-scan-false-positive.pptx",
+              "format": "pptx",
+              "size_kb": 2700,
+              "pages": 29,
+              "language": "中文",
+              "uploaded_at": "2025-07-13",
+              "source_url": "https://files.example.org/image-scan-false-positive.pptx",
+              "status": "active",
+              "block_reason": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sample_queries": [
+    [
+      "大模型",
+      18
+    ],
+    [
+      "云原生",
+      15
+    ],
+    [
+      "RAG",
+      12
+    ],
+    [
+      "Flink",
+      9
+    ],
+    [
+      "供应链安全",
+      8
+    ],
+    [
+      "Kubernetes",
+      8
+    ],
+    [
+      "数据治理",
+      6
+    ],
+    [
+      "SBOM",
+      5
+    ],
+    [
+      "特征平台",
+      4
+    ],
+    [
+      "eBPF",
+      4
+    ],
+    [
+      "GitOps",
+      3
+    ],
+    [
+      "向量数据库",
+      3
+    ],
+    [
+      "日志平台",
+      2
+    ],
+    [
+      "平台工程",
+      2
+    ],
+    [
+      "合规",
+      1
+    ]
+  ]
+}
