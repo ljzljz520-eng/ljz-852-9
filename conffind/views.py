@@ -169,7 +169,7 @@ def search_page(q, topic, speaker, ftype, topics, speakers, results, searched):
         for k, v in FILE_TYPES.items())
     filters = """
 <form class="filters" action="/search" method="get">
-  <div><label>关键词</label><input name="q" value="%s" placeholder="标题 / 文件名 / 摘要"></div>
+  <div><label>关键词</label><input name="q" value="%s" placeholder="标题 / 文件名 / 摘要 / 主题 / 讲者"></div>
   <div><label>主题</label><select name="topic">%s</select></div>
   <div><label>讲者</label><select name="speaker">%s</select></div>
   <div><label>文件类型</label><select name="ftype">%s</select></div>

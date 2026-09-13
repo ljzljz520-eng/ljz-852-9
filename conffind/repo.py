@@ -87,14 +87,15 @@ def search_files(q='', track='', speaker='', ftype=''):
         LEFT JOIN speakers sp        ON sp.id = ss.speaker_id
         WHERE f.status='active' AND s.status='active' AND c.status='active'
           AND (?='' OR f.title LIKE ? ESCAPE '\\' OR f.filename LIKE ? ESCAPE '\\'
-                    OR s.title LIKE ? ESCAPE '\\' OR s.abstract LIKE ? ESCAPE '\\')
+                    OR s.title LIKE ? ESCAPE '\\' OR s.abstract LIKE ? ESCAPE '\\'
+                    OR s.track LIKE ? ESCAPE '\\' OR sp.name LIKE ? ESCAPE '\\')
           AND (?='' OR s.track = ?)
           AND (?='' OR f.file_type = ?)
           AND (?='' OR sp.name LIKE ? ESCAPE '\\')
         GROUP BY f.id
         ORDER BY c.start_date DESC, s.day DESC, s.start_time DESC
         LIMIT 200""",
-        (q, like, like, like, like,
+        (q, like, like, like, like, like, like,
          track, track, ftype, ftype, speaker, _like(speaker))).fetchall()
     conn.close()
     return rows
